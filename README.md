@@ -32,21 +32,20 @@ Detailed charts and metrics can be found in the `Results/` directory.
 ## 📁 Directory Structure
 
 ```
-mainfolder/
-│
-├── main.ipynb # Notebook for running inference on test images.
-├── train-wider-yolov8s.ipynb # Notebook for training the model from scratch on Kaggle.
-├── best.pt # Best trained model weights (ready for inference).
-│
-├── Test/ # Directory to place your images for testing.
-│ └── (add your .png, .jpg, .jpeg, .webp images here)
-│
-└── Results/ # Directory for outputs and performance logs.
-├── results.csv # Log of metrics from all training epochs.
-└── Results_Visualization.ipynb # Notebook for custom visualization of training results.
+├── Results
+│   ├── Results_Visualization.ipynb
+│   ├── results.csv
+│   └── results.png
+├── Test
+│   ├── gameofthrones.jpg
+│   ├── nature.jpg
+│   ├── not_a_face.jpg
+│   ├── rdj.jpg
+│   └── worldslargest.webp
+├── best.pt
+├── main.ipynb
+├── train-wider-yolov8s.ipynb
 ```
-
-
 ---
 
 ##  Dataset
