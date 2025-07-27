@@ -54,7 +54,7 @@ mainfolder/
 **WIDER FACE YOLOv12 Format Dataset**  
 [Train on Kaggle](https://www.kaggle.com/datasets/canomercik/wider-face-dataset-for-yolov12-format)
 
-Add the dataset into your input before training.
+Add the dataset into your notebook's input before training.
 
 ---
 
