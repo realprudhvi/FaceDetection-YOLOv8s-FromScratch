@@ -1,4 +1,4 @@
-# 🧠 Face Detection with YOLOv8s (Trained from Scratch on WIDER FACE)
+#  Face Detection with YOLOv8s (Trained from Scratch on WIDER FACE)
 
 This repository demonstrates how to train a **YOLOv8s** model **from scratch** (without pre-trained weights) on the [WIDER FACE dataset](https://www.kaggle.com/datasets/canomercik/wider-face-dataset-for-yolov12-format). The result is a lightweight, real-time face detector suitable for both image and webcam input.
 
